@@ -1,4 +1,4 @@
-let chilometri = parseInt(prompt('Quanti chilometri vuoi percorrere?'));
+let chilometri = parseInt(prompt('Quanti KM devi percorrere?'));
 console.log('Chilometri =', chilometri);
 
 let età = parseInt(prompt('Qual\'è la tua età?'));
@@ -15,7 +15,7 @@ console.log('Prezzo scontato per Over 65 =', priceOver.toFixed(2));
 
 if (età < 18) {
   console.log('Prezzo viaggio scontato per minorenni =', priceMin.toFixed(2));
-} else if (età > 65) {
+} else if (età => 65) {
   console.log('Prezzo Viaggio scontato per over 65 =', priceOver.toFixed(2));
 } else {
   console.log('Prezzo Viaggio =', price.toFixed(2));
